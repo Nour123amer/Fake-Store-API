@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Fake Store API.</title>
+</head>
+<body>
+    
+
+    
+    <div class="container   my-4">
+
+        <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
+            <input onclick="getJewelery()" type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck1">Jelewry</label>
+          
+            <input onclick="getProducts()" type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck2">Products</label>
+          
+            <input onclick="getUsers()" type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck3">Users</label>
+          </div>
+        
+        <div class="d-flex gap-4 mx-auto justify-content-center my-4 ">
+            <input type="text " class="form-control w-50 searchInput">
+    <button  class="btn btn-primary searchBtn">Search</button>
+        </div>
+        <div class="row g-4 dataContainer">
+         
+        </div>
+    </div>
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
